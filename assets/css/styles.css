@@ -69,6 +69,7 @@ a {
     height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -112,14 +113,11 @@ a {
 }
 
 /* ==========  Hero  ========== */
-.hero {
-    margin-top: 130px;
-}
-.hero .infor {
+.hero-wrap .infor {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -127,7 +125,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -135,7 +133,7 @@ a {
     line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
@@ -143,12 +141,12 @@ a {
     line-height: 1.8; /* 177.778% */
 }
 
-.hero-cta {
+.hero-wrap .hero-cta {
     min-width: 170px;
     margin-top: 40px;
 }
 
-.hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
